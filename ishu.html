@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Conference 2025</title>
+<style>
+  body { font-family: Arial; margin:0; padding:0; text-align:center; background:#f4f4f4; }
+  header, footer { background:#2e8b57; color:white; padding:15px; }
+  nav a { margin:0 10px; color:white; text-decoration:none; }
+  nav a:hover { color:#ffcc00; text-decoration:underline; }
+  main { background:white; margin:20px auto; padding:15px; max-width:300px; border-radius:10px; }
+  input, button { width:100%; padding:8px; margin:5px 0; border-radius:5px; border:1px solid #ccc; }
+  button { background:#2e8b57; color:white; border:none; cursor:pointer; }
+  button:hover { background:#246b45; }
+  @media (max-width:500px) { nav { display:flex; flex-direction:column; } }
+</style>
+</head>
+<body>
+
+<header><h1>Tech Conference 2025</h1></header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Register</a>
+</nav>
+
+<main>
+  <h2>Register</h2>
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password (min 6)" minlength="6" required>
+    <input type="tel" placeholder="Phone (10 digits)" pattern="[0-9]{10}" required>
+    <button type="submit">Register</button>
+  </form>
+</main>
+
+<footer>&copy; 2025 Tech Conference</footer>
+
+</body>
+</html>
