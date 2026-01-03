@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishika Sisodiya Portfolio</title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 6px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 4px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Projects Grid */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            flex: 1 1 calc(33% - 20px);
+            background-color: #e0e0e0;
+            padding: 4px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .project:hover {
+            background-color: #d1c4e9;
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .projects {
+                flex-direction: column;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: #333;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Ishika Sisodiya</h1>
+        <p>Freelance Web Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Ishika Sisodiya, a freelance web developer specializing in creating interactive and responsive websites using HTML, CSS, and JavaScript. I love turning ideas into beautiful and functional web applications.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A responsive portfolio website.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>An interactive JavaScript game.</p>
+            </div>
+            <div class="project">
+                <h3>Project Three</h3>
+                <p>A simple e-commerce website.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ishikasisodiya23@gmail.com">ishikasisodiya23@gmail.com</a></p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ishika Sisodiya | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
